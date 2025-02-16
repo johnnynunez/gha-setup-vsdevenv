@@ -10,8 +10,8 @@
     "build": "ncc build index.js -o dist",
     "dev": "npm run build && ncc run index.js"
   },
-  "devDependencies": {
-    "@actions/core": "^1.2.6",
-    "@zeit/ncc": "^0.20.5"
+    "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@vercel/ncc": "^0.38.3"
   }
 }

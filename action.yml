@@ -1,4 +1,4 @@
-name: 'Setup VS Dev Environment'
+name: 'Setup VS Dev Environment 2022'
 description: 'Sets VS dev environment variables and PATH via devenv (like vcvarsall) for using msbuild, cl.exe, link.exe, etc.'
 branding:
   icon: 'code'
@@ -26,5 +26,5 @@ outputs:
   install_path:
     description: 'VS installation path'
 runs:
-  using: 'node12'
+  using: 'node22'
   main: 'dist/index.js'
